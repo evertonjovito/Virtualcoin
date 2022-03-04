@@ -1,0 +1,2 @@
+# Virtualcoin
+A criptocurrency
