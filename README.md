@@ -1,5 +1,6 @@
 # Virtualcoin
-A criptocurrency
+
+This repository is focoused for study.
 
 This project is for a cripto with this caracteristics, onde day this is real.
 
