@@ -1,6 +1,6 @@
 const Blockchain = require('./Blockchain')
 
 const blockchain = new Blockchain()
-blockchain.addBlock({ from: 'a' , to: 'b', amount })
+blockchain.addBlock({ from: 'a' , to: 'b', amount: '1' })
 
 console.log(blockchain)
