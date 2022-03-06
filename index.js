@@ -39,3 +39,7 @@ blockchain.addBlock([{ from: 'a', to: 'b', amount: 10 }], 4);
 blockchain.addBlock([{ from: 'b', to: 'c', amount: 15 }], 4);
 console.log(blockchain);
 console.log(blockchain.isValid());
+
+blockchain.blocks[1].data = { from: 'a', to: 'b', amount: 1000 };
+console.log(blockchain);
+console.log(blockchain.isValid());
