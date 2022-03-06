@@ -1,12 +1,6 @@
-const sha256 = require ('crypto-js/sha256')
+const Blockchain = require('./Blockchain')
 
-const transaction = {
-    from: 'a',
-    to: 'b',
-    amount: 1
-}
+const blockchain = new Blockchain()
+blockchain.addBlock({ from 'a' , to: 'b', amount })
 
-const str = JSON.stringify(transaction)
-
-const hash = sha256(str).toString()
-console.log(hash)
+console.log(blockchain)
